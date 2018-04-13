@@ -21,15 +21,14 @@ Code for paper
 
 ## Citation
 If you use our code, please consider cite the following:
-Chris Cremer, Xuechen Li, David Duvenaud
+Chris Cremer, Xuechen Li, David Duvenaud.
 Inference Suboptimality in Variational Autoencoders.
-*ICML*, 2018 (to appear).
 
 ```
-@inproceedings{cremer2018inference,
-  author={Cremer, Chris and Li, Xuechen and Duvenaud, David},
+@article{cremer2018inference,
   title={Inference Suboptimality in Variational Autoencoders},
-  booktitle={ICML},
+  author={Cremer, Chris and Li, Xuechen and Duvenaud, David},
+  journal={arXiv preprint arXiv:1801.03558},
   year={2018}
 }
 ```
