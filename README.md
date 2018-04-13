@@ -8,14 +8,15 @@ Code for paper
 * `pytorch`
 
 ## Training
-`python run.py --train --dataset <dataset> (--lr-schedule) (--warmup) (--early-stopping)`
+`python run.py --train --dataset <dataset> (--lr-schedule --warmup --early-stopping and model args...)`
+Here **model args** are parameters specific to model config, e.g. number of flow steps, wider encoder.
 
 ## Evaluation
 * IWAE: `python run.py --eval-iwae --dataset <dataset> --eval-path <ckpt path> (model args...)`
 * AIS: `python run.py --eval-ais --dataset <dataset> --eval-path <ckpt path> (model args...)`
 * Local FFG: `python local_ffg.py --dataset <dataset> --eval-path <ckpt path> (model args...)`
 * Local Flow: `python local_flow.py --dataset <dataset> --eval-path <ckpt path> (model args...)`
-* BDMC: `python bdmc.py --eval-path <ckpt path> --n-ais-iwae <num samples> --n-ais-dist <num dist>`
+* BDMC: `python bdmc.py --eval-path <ckpt path> --n-ais-iwae <num samples> --n-ais-dist <num dist> (model args...)`
 
 ## Citation
 If you use our code, please consider cite the following:
@@ -25,8 +26,8 @@ Inference Suboptimality in Variational Autoencoders.
 
 ```
 @inproceedings{cremer2018inference,
-  author    = {Aidan N. Gomez and Mengye Ren and Raquel Urtasun and Roger B. Grosse},
   author={Cremer, Chris and Li, Xuechen and Duvenaud, David},
+  title={Inference Suboptimality in Variational Autoencoders},
   booktitle={ICML},
   year={2018}
 }
