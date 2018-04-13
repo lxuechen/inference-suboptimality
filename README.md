@@ -9,7 +9,8 @@ Code for paper
 
 ## Training
 `python run.py --train --dataset <dataset> (--lr-schedule --warmup --early-stopping and model args...)`
-Here **model args** are parameters specific to model config, e.g. number of flow steps, wider encoder.
+
+**model args** are parameters specific to model config, e.g. number of flow steps, wider encoder.
 
 ## Evaluation
 * IWAE: `python run.py --eval-iwae --dataset <dataset> --eval-path <ckpt path> (model args...)`
