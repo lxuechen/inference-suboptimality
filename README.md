@@ -1,10 +1,10 @@
-# suboptimality
-Code for paper
+# inference-suboptimality
+Code regarding evaluation for paper
 *Inference Suboptimality in Variational Autoencoders.*
 [[arxiv](https://arxiv.org/abs/1801.03558)]
 
 ## Dependencies
-* `python 3`
+* `python3`
 * `pytorch`
 
 ## Training
