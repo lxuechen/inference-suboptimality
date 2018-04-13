@@ -4,7 +4,7 @@ Code for paper
 [[arxiv](https://arxiv.org/abs/1801.03558)]
 
 ## Requirements
-* `py3`
+* `python 3`
 * `pytorch`
 
 ## Training
