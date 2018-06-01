@@ -147,7 +147,9 @@ def train(
                 current_lr *= 10. ** (-1. / 7.)
                 pow += 1
                 epoch_elapsed = 0
-                optimizer = optim.Adam(model.parameters(), lr=current_lr, eps=1e-4)
+                # correct way to do lr decay; also possible w/ `torch.optim.lr_scheduler`
+                for param_group in optimizer.param_groups:
+                    param_group['lr'] = current_lr
             epoch_elapsed += 1
 
         model.train()  # crucial for BN to work properly
