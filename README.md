@@ -5,7 +5,8 @@ Code regarding evaluation for paper
 
 ## Dependencies
 * `python3`
-* `pytorch`
+* `pytorch==0.2.0`
+* `tqdm`
 
 ## Training
 To train on MNIST and Fashion, unzip the compressed files in folder datasets/.
