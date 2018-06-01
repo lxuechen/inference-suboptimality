@@ -9,7 +9,7 @@ Code regarding evaluation for paper
 * `tqdm`
 
 ## Training
-To train on MNIST and Fashion, unzip the compressed files in folder datasets/.
+To train on MNIST and Fashion, unzip the compressed files in folder `datasets/`.
 
 `python run.py --train --dataset <dataset> (--lr-schedule --warmup --early-stopping)`
 
