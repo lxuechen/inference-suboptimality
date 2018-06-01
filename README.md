@@ -32,7 +32,7 @@ Inference Suboptimality in Variational Autoencoders.
 @article{cremer2018inference,
   title={Inference Suboptimality in Variational Autoencoders},
   author={Cremer, Chris and Li, Xuechen and Duvenaud, David},
-  journal={arXiv preprint arXiv:1801.03558},
+  journal={ICML},
   year={2018}
 }
 ```
