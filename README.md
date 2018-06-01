@@ -13,6 +13,8 @@ To train on MNIST and Fashion, unzip the compressed files in folder datasets/.
 
 `python run.py --train --dataset <dataset> (--lr-schedule --warmup --early-stopping)`
 
+To train on CIFAR, set the argument for the dataset flag to `cifar`. The dataset should be
+downloaded automatically, if not already downloaded.
 
 ## Evaluation
 * IWAE: `python run.py --eval-iwae --dataset <dataset> --eval-path <ckpt path>`
