@@ -8,6 +8,7 @@ import os
 import argparse
 from tqdm import tqdm
 import numpy as np
+np.set_printoptions(threshold=np.nan)
 import matplotlib.pyplot as plt
 
 import torch
